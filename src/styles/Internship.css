@@ -1,0 +1,9 @@
+.custom-collapse .ant-collapse-content {
+    background-color: #d9e9ef;
+}
+  
+.loomEmbed {
+    transition: none !important;
+    transform: none !important;
+    border-radius: 10px;
+}

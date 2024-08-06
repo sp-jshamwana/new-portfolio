@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaCaretDown } from 'react-icons/fa';
 import HamburgerMenu from "./HamburgerMenu";
+import { Link as ScrollLink } from 'react-scroll';
 
-export default function Navbar() {
+export default function Navbar({ isHomePage }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -29,12 +30,19 @@ export default function Navbar() {
             isOpen ? "flex" : "hidden"
           } md:flex flex-col md:flex-row items-center text-base justify-center w-full md:w-auto mt-4 md:mt-0`}
         >
-          <Link to="/projects" className="mr-5 hover:text-purple-800">
-            Projects
-          </Link>
-          <Link to="/blog" className="text-gray-600 mr-5 hover:text-purple-800">
-            Blog
-          </Link>
+          { isHomePage === true && (
+            <div>
+              <ScrollLink to="projects" className="text-gray-600 mr-5 hover:text-purple-800" smooth={true} duration={500}>
+                Projects
+              </ScrollLink>
+              <ScrollLink to="internships" className="text-gray-600 mr-5 hover:text-purple-800" smooth={true} duration={500}>
+                Internships
+              </ScrollLink>
+              <ScrollLink to="blog" className="text-gray-600 mr-5 hover:text-purple-800" smooth={true} duration={500}>
+                Blog
+              </ScrollLink>
+            </div>
+          )}
           <Link to="/art" className="text-gray-600 mr-5 hover:text-purple-800">
             Art
           </Link>
@@ -50,12 +58,6 @@ export default function Navbar() {
                 isDropdownOpen ? "block" : "hidden"
               } absolute mt-2 py-2 w-32 bg-white rounded-lg shadow-xl`}
             >
-              <Link
-                to="/infodiet"
-                className="block px-4 py-2 text-gray-800 hover:text-purple-800"
-              >
-                Info Diet
-              </Link>
               <Link
                 to="/now"
                 className="block px-4 py-2 text-gray-800 hover:text-purple-800"

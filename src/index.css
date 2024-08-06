@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'leaflet/dist/leaflet.css';
+
 .relative .backface-hidden {
     backface-visibility: hidden;
     transform: rotateY(180deg);
@@ -14,6 +16,19 @@ transform: rotateY(0deg);
 
 .relative .w-full:hover {
 transform: rotateY(180deg);
+}
+
+.custom-popover .ant-popover-inner {
+  border: 2px solid rgb(254 240 138);
+}
+
+.custom-popover .ant-popover-arrow {
+  border-top-color: rgb(254 240 138) !important;
+}
+
+.loomEmbed {
+  transition: none !important;
+  transform: none !important;
 }
   
 @layer base {

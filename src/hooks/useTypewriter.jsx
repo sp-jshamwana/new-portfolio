@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useTypewriter = (texts, speed = 125, pause = 200) => {
+const useTypewriter = (texts, speed = 80, pause = 200) => {
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [typing, setTyping] = useState(true);

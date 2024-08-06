@@ -1,31 +1,52 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { Popover } from 'antd';
+import peopleData from '../data/people';
+import '../index.css';
+
+const popoverStyle = {
+  maxWidth: '400px',
+};
 
 const People = () => {
   return (
-    <div className="container mx-auto py-12">
-        <div>
-            <h1 className="text-4xl font-bold mb-8">People</h1>
-            <p>"Althoug we can't choose our parents, we can choose whose children we'd like to be."</p>
-            <p>Yes, our families and upbringings influence a heck of a lot. But if we choose to do so, we can pick out our 'parents', the people we'll shape our values and so forth off of.</p>
-            <p>People I (mostly) admire. Each one comes with a but and a caveat.</p>
+    <div className='bg-gray-100 min-h-screen'>
+      <Navbar />
+      <div className="container mx-auto py-12">
+        <h1 className="text-4xl font-bold mb-8 text-center">People</h1>
+        <div className="bg-yellow-100 p-6 rounded-md flex items-center mb-6 mx-4 md:mx-auto max-w-3xl">
+          <FontAwesomeIcon icon={faLightbulb} className="text-yellow-600 text-2xl mr-3" />
+          <p className="text-base text-center">
+            "Although we can't choose our parents, we can choose whose children we'd like to be." - Seneca
+          </p>
         </div>
-        <div>
-            <ul>
-                <li>James Baldwin</li>
-                <li>Haruki Murakami</li>
-                <li>Marcus Aurelius</li>
-                <li>Seneca</li>
-                <li>Derick Sivers</li>
-                <li>Noah Smith</li>
-                <li>Derick Sivers</li>
-                <li>Sam Harris</li>
-                <li>Shaun Puri</li>
-                <li>Ryan Holiday</li>
-                <li>Sam Harris</li>
-            </ul>
+        <div className="center text-center mb-8">
+          <p>I got the idea for this page from <a href="https://www.hadardor.com/">Hadar Dor's</a> personal site.</p>
+          <p>These are people I (mostly) admire:</p>
         </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mx-4 mt-16">
+          {peopleData.map((person, index) => (
+            <Popover
+              key={index}
+              content={person.context}
+              trigger={'click'}
+              overlayStyle={popoverStyle}
+              overlayClassName="custom-popover"
+            >
+              <div className="bg-white p-4 rounded-md shadow-md text-center cursor-pointer w-full">
+                <span className="text-black">
+                  {person.name}
+                </span>
+              </div>
+            </Popover>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
 
 export default People;
+
