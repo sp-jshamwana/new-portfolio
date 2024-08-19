@@ -29,7 +29,7 @@ const Now = () => {
     <div className='bg-gray-100 min-h-screen'>
       <Navbar />
       <div className="container mx-auto py-12">
-        <h1 className="text-4xl font-bold mb-8 text-center">Now</h1>
+        <h1 className="text-4xl mb-8 text-center">Now</h1>
         <h2 className="text-lg mb-4 text-center">I got the idea for this page from <u><a href="https://sive.rs/now" target="_blank" rel="noopener noreferrer">Derek Sivers</a></u>. This is what I'm working on now:</h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mx-4 mt-16">
           {items.map((item, index) => (

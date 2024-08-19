@@ -15,7 +15,7 @@ const People = () => {
     <div className='bg-gray-100 min-h-screen'>
       <Navbar />
       <div className="container mx-auto py-12">
-        <h1 className="text-4xl font-bold mb-8 text-center">People</h1>
+        <h1 className="text-4xl mb-8 text-center">People</h1>
         <div className="bg-yellow-100 p-6 rounded-md flex items-center mb-6 mx-4 md:mx-auto max-w-3xl">
           <FontAwesomeIcon icon={faLightbulb} className="text-yellow-600 text-2xl mr-3" />
           <p className="text-base text-center">

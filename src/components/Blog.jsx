@@ -12,7 +12,7 @@ const BlogPost = ({ title, date, previewText, onClick }) => {
           onClick={onClick}
       >
           <div className="p-8 w-full flex flex-col justify-center">
-              <h2 className="text-2xl font-semibold mb-4">{title}</h2>
+              <h2 className="text-xl mb-4">{title}</h2>
               <p className="text-gray-600 mb-4">{date}</p>
               <p>{previewText}</p>
           </div>

@@ -6,3 +6,28 @@
 .video-container:hover video {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+      min-width: 350px;
+      margin: 0 auto;
+      padding-top: 28px;
+    }
+
+    .typewriter-text {
+        margin-bottom: 0px;
+        font-size: 1.5rem;
+    }
+
+    .hero-heading {
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+
+    .video-container {
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+}
+
+  

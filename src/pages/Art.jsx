@@ -20,7 +20,7 @@ const Art = () => {
         <div className="bg-gray-100 min-h-screen">
           <Navbar />
           <div className="container mx-auto py-12">
-            <h1 className="text-4xl font-bold mb-8 text-center">Art</h1>
+            <h1 className="text-4xl mb-8 text-center">Art</h1>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
               {projects.map((project, index) => (
                 <ArtworkCard
