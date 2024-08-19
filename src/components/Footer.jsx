@@ -18,7 +18,7 @@ const Footer = () => {
                 <SocialIcon network="instagram" />
             </a>
             <a href="https://x.com/JonathanSh42139" target="_blank" rel="noopener noreferrer">
-                <SocialIcon network="twitter" />
+                <SocialIcon network="x" />
             </a>
           </div>
         </div>

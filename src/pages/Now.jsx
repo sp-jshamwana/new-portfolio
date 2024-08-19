@@ -37,7 +37,7 @@ const Now = () => {
               <span className={`absolute top-2 right-2 rounded-full px-3 py-1 text-sm font-semibold ${getTagColor(item.tag)}`}>
                 {item.tag}
               </span>
-              <p className="text-gray-800">{item.text}</p>
+              <p className="text-gray-800 pr-20">{item.text}</p>
             </li>
           ))}
         </ul>
@@ -48,9 +48,6 @@ const Now = () => {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
-          <Marker position={center}>
-            <Popup>Buenos Aires</Popup>
-          </Marker>
         </MapContainer>
       </div>
     </div>

@@ -22,7 +22,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="min-h-196 flex items-center justify-center px-5 py-20 bg-gray-100">
+    <section id="about" className="min-h-196 flex items-center justify-center px-5 pt-20 pb-10 bg-gray-100">
       <div className="container max-w-5xl bg-white shadow-lg rounded-lg p-16 m-6 flex flex-col md:flex-row items-center">
         <div className="md:w-3/5 md:pr-8 mb-16 md:mb-0 text-center md:text-left">
           <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-black">
@@ -33,7 +33,7 @@ export default function About() {
           </p>
         </div>
         <div 
-          className="md:w-1/2 flex justify-center md:justify-end"
+          className="md:w-1/2 flex justify-center md:justify-end video-container"
           onMouseEnter={() => handleMouseEnter()}
           onMouseLeave={() => handleMouseLeave()}
         >
@@ -44,6 +44,7 @@ export default function About() {
               autoPlay
               loop
               muted
+              preload="auto"
             >
               {videoIndex === 1 ? (<source src="/videos/drawing.mov" />) : (<source src="/videos/running.mov" />)}
             </video>

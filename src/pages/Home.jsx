@@ -3,6 +3,7 @@ import About from "../components/About";
 import Projects from "../components/Projects"
 import Navbar from "../components/Navbar";
 import InternshipExperience from "../components/InternshipExp";
+import { References } from "../components/References";
 import Blog from "../components/Blog";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             <Navbar isHomePage={true}/>
             <About />
+            <References />
             <Projects />
             <InternshipExperience />
             <Blog />

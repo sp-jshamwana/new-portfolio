@@ -23,8 +23,8 @@ const People = () => {
           </p>
         </div>
         <div className="center text-center mb-8">
-          <p>I got the idea for this page from <a href="https://www.hadardor.com/">Hadar Dor's</a> personal site.</p>
-          <p>These are people I (mostly) admire:</p>
+          <p>I got the idea for this page from <u><a href="https://www.hadardor.com/" target="_blank" rel="noopener noreferrer">Hadar Dor's</a></u> personal site.</p>
+          <p>Here are some of the people I (mostly) admire:</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mx-4 mt-16">
           {peopleData.map((person, index) => (

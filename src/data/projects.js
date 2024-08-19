@@ -5,7 +5,7 @@ const projects = [
         image: "/images/projects/africa.png",
         category: "Web Development",
         tools: "OpenAI API, Python, Flask, HTML/CSS",
-        description: "Representation isn't only important in Hollywood movies. It starts as early as the bedtime stories you read as a child. Afrika Tales uses the Open AI API to generate custom stories that African parents can read to their children.",
+        description: "Representation isn't only important in Hollywood movies. It starts as early as the bedtime stories you read as a child. Afrika Tales leverages generative AI to create custom stories for African parents can read to their children.",
         link: "https://afrika-tales.onrender.com/"
     },
     {
@@ -14,7 +14,7 @@ const projects = [
         image: "/images/projects/police.jpeg",
         category: "Data Analysis",
         tools: "Python (Pandas, NumPy, Seaborn & other data viz modules)",
-        description: "What shapes your perception of police brutality? Catchy but biased news headlines? I dive into five datasets from the Washington Post to depict police shootings in the US in a more nuanced manner. I use bias mitigation strategies throughout to increase realiability.",
+        description: "What shapes your perception of police brutality? Catchy but biased news headlines? I dive into five datasets from the Washington Post to unpack police shootins in the US in a more nuanced manner. I use bias mitigation strategies throughout to increase realiability.",
         link: "https://bit.ly/43T2KmO"
     },
     {
@@ -23,8 +23,8 @@ const projects = [
         image: "/images/projects/fashion.png",
         category: "Web Development",
         tools: "Python, Flask, SQL, HTML/CSS, Stripe",
-        description: "Since 2020, there's been a massive surge in digital fashion. Covid-19 encouraged brands to find new ways to stay relevant. As we progress in an increasingly digital world, with mixed-reality technologies, there's a huge gap for brands to offer digital garments.",
-        link: ""
+        description: "Since 2020, there's been a massive surge in digital fashion. Covid-19 encouraged brands to find new ways to stay relevant. As we progress into an increasingly digital world, with mixed-reality technologies, there's a huge gap for brands to offer digital garments.",
+        link: "/irunway-demo"
     },
     {
         title: "Watermarking Tool",

@@ -25,7 +25,7 @@ const peopleData = [
     },
     {
       name: 'Derek Sivers',
-      context: "Derek sold his company for $30M and gave it all away. Now he's a successful author who still prioritizes raising his son and speaking to his readers. How awesome is that?",
+      context: "Derek sold his company for $30M and gave it all away. Now he's a successful author who still prioritizes raising his son and having conversations with his readers. That's pretty damn cool.",
       questions: [
         'What motivates you to create?',
         'How do you approach decision-making?'
@@ -49,7 +49,7 @@ const peopleData = [
     },
     {
       name: 'Shaan Puri',
-      context: "I've been watching the MFM podcast for 4 years now. That's a lot of time with Sam and Shaun in my ears. A great entrepreneur and storyteller. A life I could see myself trying to emulate.",
+      context: "I've been watching the MFM podcast for 4 years now. That's a lot of time with Sam and Shaan in my ears. A great entrepreneur and storyteller. Many aspects of his life that I'm trying to emulate.",
       questions: [
         'What are the key factors for a successful startup?',
         'How do you stay motivated?'
@@ -65,12 +65,34 @@ const peopleData = [
     },
     {
       name: 'Paul Graham',
-      context: "In addition to founding the beheamoth that Y-Combinator is, PG writes about startup lessons and tech insights with such clarity and memorability.",
+      context: "The norotious BIG? Nah, the notoious PG. In addition to co-founding the beheamoth that Y-Combinator is, PG writes about startup lessons and tech insights with such clarity and memorability, at scale.",
       questions: [
         "What's the most important insight from your 'How to do good work' essay?",
         'Boil down your most important startup advice into a sentence. '
       ]
     },
+    {
+      name: 'Jason Fried',
+      context: "I'm a sucker for a great entrepreneur who can also write. Jason's a master of product, and has written literally 1000+ blog posts over the past two decades.",
+      questions: [
+        "What inspired you to write 'Founders' Letters,' and how have they impacted your relationship with your team and customers?",
+        "What recent change at 37signals excites you the most, and how do you see it shaping the company's future?"
+      ]
+    },
+    {
+      name: "Seneca",
+      context: "'We suffer more often in imagination than in reality.' - this mantra alone would warrant his place on this list. But several other lessons from his writings 'On The Shortness of Life' and 'Letters to Lucilius' have become pillars of my life.",
+      questions: [
+
+      ]
+    },
+    {
+      name: "Rei Kawakubo",
+      context: "Where to start. As perhaps the biggest contributor to androgenous fashion, Kawakubo is a big reason why I comfortably experiment with hand bags and skirts as a heterosexual man. Additionally, I'm astounded by her business acumen, longevity, refusal to conform, and enticing contrast between personal introversion and artstic extroversion.",
+      questions: [
+  
+      ]
+    }
   ];
   
   export default peopleData;

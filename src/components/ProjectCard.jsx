@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
               <p className="m-4">{project.tools}</p>
               <p className="description">{project.description}</p>
             </div>
-            <a href={project.link} className="button mb-4">View Project</a>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="button mb-4">View Project</a>
           </div>
         </div>
       </div>
