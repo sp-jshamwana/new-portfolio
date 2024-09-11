@@ -11,6 +11,10 @@ const popoverStyle = {
 };
 
 const People = () => {
+
+  const onlineWriters = peopleData.filter(person => person.onlineWriter);
+  const nonOnlineWriters = peopleData.filter(person => !person.onlineWriter);
+
   return (
     <div className='bg-gray-100 min-h-screen'>
       <Navbar />
@@ -27,7 +31,7 @@ const People = () => {
           <p>Here are some of the people I (mostly) admire:</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mx-4 mt-16">
-          {peopleData.map((person, index) => (
+          {nonOnlineWriters.map((person, index) => (
             <Popover
               key={index}
               content={person.context}
@@ -42,6 +46,27 @@ const People = () => {
               </div>
             </Popover>
           ))}
+        </div>
+        <div className="center text-center mb-8 mt-16">
+          <p>Online writers</p>
+          <p>I wanted to put many 'online writers' on this page, but it felt weird putting them in the section above.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mx-4 mt-16">
+            {onlineWriters.map((person, index) => (
+              <Popover
+                key={index}
+                content={person.context}
+                trigger={'click'}
+                overlayStyle={popoverStyle}
+                overlayClassName="custom-popover"
+              >
+                <div className="bg-white p-4 rounded-md shadow-md text-center cursor-pointer w-full">
+                  <span className="text-black">
+                    {person.name}
+                  </span>
+                </div>
+              </Popover>
+            ))}
+          </div>
         </div>
       </div>
     </div>

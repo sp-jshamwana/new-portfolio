@@ -5,7 +5,8 @@ const peopleData = [
       questions: [
         'What inspired you to write "The Fire Next Time"?',
         'How do you see the role of the writer in society?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Haruki Murakami',
@@ -13,7 +14,8 @@ const peopleData = [
       questions: [
         'What is the meaning behind "Kafka on the Shore"?',
         'How do you develop your characters?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Marcus Aurelius',
@@ -21,7 +23,8 @@ const peopleData = [
       questions: [
         'What are your views on leadership?',
         'How can we apply stoicism in modern life?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Derek Sivers',
@@ -29,7 +32,8 @@ const peopleData = [
       questions: [
         'What motivates you to create?',
         'How do you approach decision-making?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Noah Smith',
@@ -37,7 +41,8 @@ const peopleData = [
       questions: [
         'What are your thoughts on the current economy?',
         'How can we achieve sustainable growth?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Sam Harris',
@@ -45,7 +50,8 @@ const peopleData = [
       questions: [
         'What is the essence of your mindfulness practice?',
         'How do you approach controversial topics?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Shaan Puri',
@@ -53,7 +59,8 @@ const peopleData = [
       questions: [
         'What are the key factors for a successful startup?',
         'How do you stay motivated?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Ryan Holiday',
@@ -61,7 +68,8 @@ const peopleData = [
       questions: [
         'How do you integrate stoicism into daily life?',
         'What inspired you to write "The Obstacle Is the Way"?'
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Paul Graham',
@@ -69,7 +77,8 @@ const peopleData = [
       questions: [
         "What's the most important insight from your 'How to do good work' essay?",
         'Boil down your most important startup advice into a sentence. '
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: 'Jason Fried',
@@ -84,14 +93,40 @@ const peopleData = [
       context: "'We suffer more often in imagination than in reality.' - this mantra alone would warrant his place on this list. But several other lessons from his writings 'On The Shortness of Life' and 'Letters to Lucilius' have become pillars of my life.",
       questions: [
 
-      ]
+      ],
+      onlineWriter: false
     },
     {
       name: "Rei Kawakubo",
       context: "Where to start. As perhaps the biggest contributor to androgenous fashion, Kawakubo is a big reason why I comfortably experiment with hand bags and skirts as a heterosexual man. Additionally, I'm astounded by her business acumen, longevity, refusal to conform, and enticing contrast between personal introversion and artstic extroversion.",
       questions: [
   
-      ]
+      ],
+      onlineWriter: false
+    },
+    {
+      name: "David Senra",
+      context: "Technically not a writer, but David's 'Founders' podcast injects me with adrenaline and timeless lessons whenever I listen to it. Favorite eps: Jay-Z, Charlie Munger, Anna Wintour. David's the most prolific student and documentarian of entrepreneurs ever to live.",
+      questions: [
+
+      ],
+      onlineWriter: true
+    },
+    {
+      name: "Ben Thompson",
+      context: "Ben says that he has an overall view of the world (this view is his machine), and when something in the tech world happens, he plugs it into the machine and 'out pops a conclusion'. But the machine is premised on years of scholarship and writing. This gave me a new perspective on knowledge acquisition, and how I can be consistent for a decade plus.",
+      questions: [
+
+      ],
+      onlineWriter: true
+    },
+    {
+      name: "David Perell",
+      context: "A heuristic for finding awesome people: think of something you enjoy, then find the person most obsessed with that thing. David, as demonstrated in the How I Write podcast, is obsessed with great writing and studies it publicly in the most beautiful format! The episodes with The Cultural Tutor, Mark Andreesen, and Mark Forsyth are some of my favorites.",
+      questions: [
+
+      ],
+      onlineWriter: true
     }
   ];
   
