@@ -53,7 +53,7 @@ export default function About() {
             <img
               className="object-cover object-center rounded-full shadow-3xl"
               alt="Portrait of Jonathan"
-              src="/images/hero/headshot.jpeg"
+              src="/images/hero/headshot-purple.png"
               style={{ width: '250px', height: '250px' }}
             />
           )}
