@@ -75,7 +75,7 @@ const peopleData = [
     {
       name: "Nick Bare",
       context: "Successful founder and CEO, 2:39 marathon at 98kg, several ultra-marathons (including Leadville, the badded 100-miler of them all), all while being a present father and husband.",
-      onlineWriter: true
+      onlineWriter: false
     }
   ];
   
