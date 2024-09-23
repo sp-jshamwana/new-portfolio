@@ -47,6 +47,7 @@ const peopleData = [
     {
       name: 'Jason Fried',
       context: "I'm a sucker for a great entrepreneur who can also write. Jason's a master of product, and has written literally 1000+ blog posts over the past two decades.",
+      onlineWriter: false
     },
     {
       name: "Seneca",
@@ -61,6 +62,7 @@ const peopleData = [
     {
       name: "David Senra",
       context: "Technically not a writer, but David's 'Founders' podcast injects me with adrenaline and timeless lessons whenever I listen to it. Favorite eps: Jay-Z, Charlie Munger, Anna Wintour. David's the most prolific student and documentarian of entrepreneurs ever to live.",
+      onlineWriter: true
     },
     {
       name: "Ben Thompson",
