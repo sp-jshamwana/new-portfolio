@@ -70,6 +70,12 @@ export default function Navbar({ isHomePage }) {
               >
                 People
               </Link>
+              <Link
+                to="/exploration"
+                className="block px-4 py-2 text-gray-800 hover:text-purple-800"
+              >
+                Exploration
+              </Link>
             </div>
           </div>
         </nav>

@@ -32,6 +32,15 @@ transform: rotateY(180deg);
   transition: none !important;
   transform: none !important;
 }
+
+.paragraphHighlight {
+  font-weight: bold;
+}
+
+.explorationImage:hover {
+  transform: none !important; 
+  transition: none !important;
+}
   
 @layer base {
     body {
