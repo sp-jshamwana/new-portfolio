@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import useTypewriter from "../hooks/useTypewriter";
 import '../styles/About.css'
 
 export default function About() {
-  const [isHovered, setIsHovered] = useState(false)
-  const [videoIndex, setVideoIndex] = useState(1)
+  const [isHovered, setIsHovered] = useState(false);
+  const [videoIndex, setVideoIndex] = useState(1);
 
   const typewriterText = useTypewriter([
     " build products.",
@@ -12,6 +12,16 @@ export default function About() {
     " write blog posts.",
     " make art.",
   ]);
+
+  useEffect(() => {
+    const video1 = document.createElement('video');
+    video1.src = "/videos/drawing.mov";
+    video1.preload = "auto";
+
+    const video2 = document.createElement('video');
+    video2.src = "/videos/running.mov";
+    video2.preload = "auto";
+  }, []);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
