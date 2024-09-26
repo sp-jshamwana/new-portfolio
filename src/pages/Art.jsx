@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ArtworkCard from "../components/ArtworkCard";
 import projects from "../data/art";
@@ -7,6 +7,10 @@ import 'antd/dist/reset.css';
 
 const Art = () => {
     const [selectedProject, setSelectedProject] = useState(null);
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
 
     const handleOk = () => {
         setSelectedProject(null);

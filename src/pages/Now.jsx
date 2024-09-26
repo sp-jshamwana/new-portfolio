@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import items from '../data/now';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
 
 const getTagColor = (tag) => {
   switch (tag) {
@@ -24,6 +24,10 @@ const Now = () => {
     lat: -34.603722,
     lng: -58.381592,
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='bg-gray-100 min-h-screen'>

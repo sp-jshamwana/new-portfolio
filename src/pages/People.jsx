@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
@@ -11,9 +11,12 @@ const popoverStyle = {
 };
 
 const People = () => {
-
   const onlineWriters = peopleData.filter(person => person.onlineWriter);
   const nonOnlineWriters = peopleData.filter(person => !person.onlineWriter);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='bg-gray-100 min-h-screen'>
