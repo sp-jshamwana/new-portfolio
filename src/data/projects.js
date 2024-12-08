@@ -6,7 +6,8 @@ const projects = [
         category: "Web Development",
         tools: "Javascript, React, Flask, OpenAI API, GCalendar API",
         description: "A task-tracking app for marathoners, supercharged by a smart-scheduling agent that finds optimal slots in your calendar and automatically schedules tasks.",
-        link: "https://github.com/jonathanshamwana/my-hierarchical-todo"
+        link: "https://github.com/jonathanshamwana/my-hierarchical-todo",
+        demoVideo: "5b6416d0daa6413285bcf722a4b6d022?sid=558d7d54-08a5-4f84-b057-a9a5c5859670",
     },
     {
         title: "26Coach: AI Marathon Coach",
@@ -15,7 +16,8 @@ const projects = [
         category: "Web Development",
         tools: "Javascript, React, Flask, OpenAI API, Strava API",
         description: "The running coach that lives in your Airpods and your pocket. Running coaches are expensive and inflexible. Replace your coach with an ultra-personalized AI coach.",
-        link: "https://github.com/jonathanshamwana/marathon-coach"
+        link: "https://github.com/jonathanshamwana/marathon-coach",
+        demoVideo: "b2be453cd85b4763add24c422271686d?sid=5cda5de8-95ea-49c7-b01a-227c19906ca4"
     },
     {
         title: "Afrika Tales",
