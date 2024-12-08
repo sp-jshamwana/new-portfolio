@@ -1,5 +1,23 @@
 const projects = [
     {
+        title: "26Club: Smart Task Tracking",
+        date: 'Oct (2024)',
+        image: "/images/projects/on-running-pinterest.jpg",
+        category: "Web Development",
+        tools: "Javascript, React, Flask, OpenAI API, GCalendar API",
+        description: "A task-tracking app for marathoners, supercharged by a smart-scheduling agent that finds optimal slots in your calendar and automatically schedules tasks.",
+        link: "https://github.com/jonathanshamwana/my-hierarchical-todo"
+    },
+    {
+        title: "26Coach: AI Marathon Coach",
+        date: 'Nov (2024)',
+        image: "/images/projects/blue-track-pinterest.jpg",
+        category: "Web Development",
+        tools: "Javascript, React, Flask, OpenAI API, Strava API",
+        description: "The running coach that lives in your Airpods and your pocket. Running coaches are expensive and inflexible. Replace your coach with an ultra-personalized AI coach.",
+        link: "https://github.com/jonathanshamwana/marathon-coach"
+    },
+    {
         title: "Afrika Tales",
         date: 'Sept (2023)',
         image: "/images/projects/africa.png",
@@ -9,7 +27,7 @@ const projects = [
         link: "https://afrika-tales.onrender.com/"
     },
     {
-        title: "Analyzing Police Shooting",
+        title: "Data Analysis: Police Shooting",
         date: 'July (2023)',
         image: "/images/projects/police.jpeg",
         category: "Data Analysis",
@@ -18,7 +36,7 @@ const projects = [
         link: "https://bit.ly/43T2KmO"
     },
     {
-        title: "Ecommerce Site: Digital Fashion",
+        title: "iRunway: Digital Fashion",
         date: 'Aug (2023)',
         image: "/images/projects/fashion.png",
         category: "Web Development",
@@ -36,7 +54,7 @@ const projects = [
         link: "https://github.com/jonathanshamwana/WatermarkGUI"
     },
     {
-        title: "Cafe Search & Review Site",
+        title: "Minerva Cafes: Find & Review",
         date: 'July (2023)',
         image: "/images/projects/cafe.jpg",
         category: "Web Development",
@@ -45,7 +63,7 @@ const projects = [
         link: "https://minerva-cafes.onrender.com"
     },
     {
-        title: "Batch QR Code Generator",
+        title: "QR Code Generator",
         date: 'May (2023)',
         image: "/images/projects/qr.png",
         category: "Utility",
