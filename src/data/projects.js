@@ -1,5 +1,25 @@
 const projects = [
     {
+        title: "26Club: Smart Task Tracking",
+        date: 'Oct (2024)',
+        image: "/images/projects/on-running-pinterest.jpg",
+        category: "Web Development",
+        tools: "Javascript, React, Flask, OpenAI API, GCalendar API",
+        description: "A task-tracking app for marathoners, supercharged by a smart-scheduling agent that finds optimal slots in your calendar and automatically schedules tasks.",
+        link: "https://github.com/jonathanshamwana/my-hierarchical-todo",
+        demoVideo: "5b6416d0daa6413285bcf722a4b6d022?sid=558d7d54-08a5-4f84-b057-a9a5c5859670",
+    },
+    {
+        title: "26Coach: AI Marathon Coach",
+        date: 'Nov (2024)',
+        image: "/images/projects/blue-track-pinterest.jpg",
+        category: "Web Development",
+        tools: "Javascript, React, Flask, OpenAI API, Strava API",
+        description: "The running coach that lives in your Airpods and your pocket. Running coaches are expensive and inflexible. Replace your coach with an ultra-personalized AI coach.",
+        link: "https://github.com/jonathanshamwana/marathon-coach",
+        demoVideo: "b2be453cd85b4763add24c422271686d?sid=5cda5de8-95ea-49c7-b01a-227c19906ca4"
+    },
+    {
         title: "Afrika Tales",
         date: 'Sept (2023)',
         image: "/images/projects/africa.png",
@@ -9,7 +29,7 @@ const projects = [
         link: "https://afrika-tales.onrender.com/"
     },
     {
-        title: "Analyzing Police Shooting",
+        title: "Data Analysis: Police Shooting",
         date: 'July (2023)',
         image: "/images/projects/police.jpeg",
         category: "Data Analysis",
@@ -18,7 +38,7 @@ const projects = [
         link: "https://bit.ly/43T2KmO"
     },
     {
-        title: "Ecommerce Site: Digital Fashion",
+        title: "iRunway: Digital Fashion",
         date: 'Aug (2023)',
         image: "/images/projects/fashion.png",
         category: "Web Development",
@@ -36,7 +56,7 @@ const projects = [
         link: "https://github.com/jonathanshamwana/WatermarkGUI"
     },
     {
-        title: "Cafe Search & Review Site",
+        title: "Minerva Cafes: Find & Review",
         date: 'July (2023)',
         image: "/images/projects/cafe.jpg",
         category: "Web Development",
@@ -45,7 +65,7 @@ const projects = [
         link: "https://minerva-cafes.onrender.com"
     },
     {
-        title: "Batch QR Code Generator",
+        title: "QR Code Generator",
         date: 'May (2023)',
         image: "/images/projects/qr.png",
         category: "Utility",
