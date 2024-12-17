@@ -29,8 +29,8 @@ const ProjectCard = ({ project, onDemoClick, setActiveDemoVideo }) => {
             {project?.demoVideo && (
               <button
                 onClick={(e) => {
-                  e.stopPropagation(); // Prevent flipping on button click
-                  onDemoClick(project.demoVideo);
+                  e.stopPropagation(); 
+                  onDemoClick(project.demoVideo, project.demoPlatform);
                 }}
                 className="demo-button button mb-4"
               >

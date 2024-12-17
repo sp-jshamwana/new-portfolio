@@ -2,13 +2,15 @@ import React, { useState} from "react";
 import projects from "../data/projects";
 import "../styles/Projects.css";
 import ProjectCard from "./ProjectCard";
-import LoomModal from "./LoomEmbed";
+import { LoomModal, YouTubeModal } from "./VideoModal";
 
 const Projects = () => {
   const [activeDemoVideo, setActiveDemoVideo] = useState(null);
+  const [demoPlatform, setDemoPlatform] = useState(null);
 
-  const handleDemoClick = (demoVideo) => {
+  const handleDemoClick = (demoVideo, demoPlatform) => {
     setActiveDemoVideo(demoVideo);
+    setDemoPlatform(demoPlatform)
   };
 
   const handleModalClose = () => {
@@ -29,7 +31,8 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      {activeDemoVideo && <LoomModal embedId={activeDemoVideo} onCancel={handleModalClose} isModalOpen={!!activeDemoVideo} />}
+      {activeDemoVideo && demoPlatform === 'Loom' && <LoomModal embedId={activeDemoVideo} onCancel={handleModalClose} isModalOpen={!!activeDemoVideo} />}
+      {activeDemoVideo && demoPlatform === 'YouTube' && <YouTubeModal embedId={activeDemoVideo} onCancel={handleModalClose} isModalOpen={!!activeDemoVideo} />}
     </section>
   );
 };
