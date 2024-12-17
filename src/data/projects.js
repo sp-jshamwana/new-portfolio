@@ -1,23 +1,36 @@
 const projects = [
     {
+        title: "Pathweiz: Career Discovery",
+        date: 'Dec (2024)',
+        image: "/images/projects/dance-dance-dance.jpg",
+        category: "Full-stack Development",
+        tools: "Flask, Javascript, React, Gemini API, Supabase",
+        description: "Most students are lost, and time is ticking. Pathweiz helps students discover interesting, personalized careers, and then reduce the friction of trying them out. Powered by Google's Gemini flash model.",
+        link: "https://pathweiz.onrender.com/explore",
+        demoVideo: "https://www.youtube.com/embed/qWhkFiFQIDI?si=Vmm5RJGYtlefeplr",
+        demoPlatform: "YouTube"
+    },
+    {
         title: "26Club: Smart Task Tracking",
         date: 'Oct (2024)',
         image: "/images/projects/on-running-pinterest.jpg",
-        category: "Web Development",
+        category: "Full-stack Development",
         tools: "Javascript, React, Flask, OpenAI API, GCalendar API",
         description: "A task-tracking app for marathoners, supercharged by a smart-scheduling agent that finds optimal slots in your calendar and automatically schedules tasks.",
         link: "https://github.com/jonathanshamwana/my-hierarchical-todo",
         demoVideo: "5b6416d0daa6413285bcf722a4b6d022?sid=558d7d54-08a5-4f84-b057-a9a5c5859670",
+        demoPlatform: "Loom"
     },
     {
         title: "26Coach: AI Marathon Coach",
         date: 'Nov (2024)',
         image: "/images/projects/blue-track-pinterest.jpg",
-        category: "Web Development",
+        category: "Full-stack Development",
         tools: "Javascript, React, Flask, OpenAI API, Strava API",
         description: "The running coach that lives in your Airpods and your pocket. Running coaches are expensive and inflexible. Replace your coach with an ultra-personalized AI coach.",
         link: "https://github.com/jonathanshamwana/marathon-coach",
-        demoVideo: "b2be453cd85b4763add24c422271686d?sid=5cda5de8-95ea-49c7-b01a-227c19906ca4"
+        demoVideo: "b2be453cd85b4763add24c422271686d?sid=5cda5de8-95ea-49c7-b01a-227c19906ca4",
+        demoPlatform: "Loom"
     },
     {
         title: "Afrika Tales",
