@@ -21,9 +21,9 @@ const getTagColor = (tag) => {
 const Now = () => {
 
   const center = {
-    lat: -34.603722,
-    lng: -58.381592,
-  };
+    lat: 37.7694,
+    lng: -122.4862,
+  };  
 
   useEffect(() => {
     window.scrollTo(0, 0);

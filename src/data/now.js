@@ -1,10 +1,10 @@
 const items = [
-    { text: 'Searching for a Product Management internship for Summer 2025', tag: 'career' },
+    { text: 'APM Internship @ Google in Mountain View', tag: 'career' },
     { text: 'Hosting the Humans of Minerva podcast', tag: 'school' },
-    { text: 'Technical Product Management Intern @ Nutrix AI in Buenos Aires', tag: 'career' },
-    { text: 'Training to run 2:48 @ the 2025 London Marathon', tag: 'running' },
-    { text: 'Curating a photography project about the malleability of memory', tag: 'art'},
-    { text: "Coursework: CS162: Software Development; CS114: Probability & Statistics, AH146: Decoding Art and Literature", tag: 'school'},
+    { text: 'Training to run 2:45 @ the 2025 Taipei Marathon', tag: 'running' },
+    { text: 'Photography project called "A San Francisco Summer"', tag: 'art'},
+    { text: 'A Computational Fashion Collection (Sennior Year Capstone)', tag: 'school'},
+    { text: "Raising $3k for Zambia's Worst Ever Drought", tag: 'running'}
   ];
 
 export default items;
