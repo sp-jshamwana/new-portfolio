@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="footer-top flex flex-col md:flex-row justify-between items-center mb-4">
           <div className="trademark mb-4 md:mb-0">
-            <p>&copy; 2024 Jonathan Shamwana. All Rights Reserved.</p>
+            <p>&copy; 2025 Jonathan Shamwana. All Rights Reserved.</p>
           </div>
           <div className="social-icons mb-4 md:mb-0">
             <a href="https://linkedin.com/in/shamwana" target="_blank" rel="noopener noreferrer">
