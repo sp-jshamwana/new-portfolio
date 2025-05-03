@@ -32,13 +32,13 @@ export default function Navbar({ isHomePage }) {
         >
           { isHomePage === true && (
             <div>
-              <ScrollLink to="projects" className="text-gray-600 mr-5 hover:text-purple-800" smooth={true} duration={500}>
+              <ScrollLink to="projects" className="text-gray-600 mr-5 hover:text-purple-800 cursor-pointer" smooth={true} duration={500}>
                 Projects
               </ScrollLink>
-              <ScrollLink to="internships" className="text-gray-600 mr-5 hover:text-purple-800" smooth={true} duration={500}>
+              <ScrollLink to="internships" className="text-gray-600 mr-5 hover:text-purple-800 cursor-pointer" smooth={true} duration={500}>
                 Internships
               </ScrollLink>
-              <ScrollLink to="blog" className="text-gray-600 mr-5 hover:text-purple-800" smooth={true} duration={500}>
+              <ScrollLink to="blog" className="text-gray-600 mr-5 hover:text-purple-800 cursor-pointer" smooth={true} duration={500}>
                 Blog
               </ScrollLink>
             </div>
