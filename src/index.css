@@ -40,11 +40,6 @@ transform: rotateY(180deg);
 .paragraphHighlight {
   font-weight: bold;
 }
-
-.explorationImage:hover {
-  transform: none !important; 
-  transition: none !important;
-}
   
 @layer base {
     body {

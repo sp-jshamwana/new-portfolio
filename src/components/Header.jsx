@@ -4,7 +4,7 @@ import { FaCaretDown } from 'react-icons/fa';
 import HamburgerMenu from "./HamburgerMenu";
 import { Link as ScrollLink } from 'react-scroll';
 
-export default function Navbar({ isHomePage }) {
+export default function Header({ isHomePage }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -32,24 +32,24 @@ export default function Navbar({ isHomePage }) {
         >
           { isHomePage === true && (
             <div>
-              <ScrollLink to="projects" className="text-gray-600 mr-5 hover:text-purple-800 cursor-pointer" smooth={true} duration={500}>
+              <ScrollLink to="projects" className="text-gray-600 mr-5 hover:text-green-800 cursor-pointer" smooth={true} duration={500}>
                 Projects
               </ScrollLink>
-              <ScrollLink to="internships" className="text-gray-600 mr-5 hover:text-purple-800 cursor-pointer" smooth={true} duration={500}>
+              <ScrollLink to="internships" className="text-gray-600 mr-5 hover:text-green-800 cursor-pointer" smooth={true} duration={500}>
                 Internships
               </ScrollLink>
-              <ScrollLink to="blog" className="text-gray-600 mr-5 hover:text-purple-800 cursor-pointer" smooth={true} duration={500}>
+              <ScrollLink to="blog" className="text-gray-600 mr-5 hover:text-green-800 cursor-pointer" smooth={true} duration={500}>
                 Blog
               </ScrollLink>
             </div>
           )}
-          <Link to="/art" className="text-gray-600 mr-5 hover:text-purple-800">
+          <Link to="/art" className="text-gray-600 mr-5 hover:text-green-800">
             Art
           </Link>
           <div className="relative">
             <button
               onClick={toggleDropdown}
-              className="text-gray-600 mr-5 hover:text-purple-800 focus:outline-none flex items-center"
+              className="text-gray-600 mr-5 hover:text-green-800 focus:outline-none flex items-center"
             >
               Stuff <FaCaretDown className="ml-1" />
             </button>
@@ -60,22 +60,16 @@ export default function Navbar({ isHomePage }) {
             >
               <Link
                 to="/now"
-                className="block px-4 py-2 text-gray-800 hover:text-purple-800"
+                className="block px-4 py-2 text-gray-800 hover:text-green-800"
               >
                 Now
               </Link>
               <Link
                 to="/people"
-                className="block px-4 py-2 text-gray-800 hover:text-purple-800"
+                className="block px-4 py-2 text-gray-800 hover:text-green-800"
               >
                 People
               </Link>
-              {/* <Link
-                to="/exploration"
-                className="block px-4 py-2 text-gray-800 hover:text-purple-800"
-              >
-                Exploration
-              </Link> */}
             </div>
           </div>
         </nav>

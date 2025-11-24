@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="trademark mb-4 md:mb-0">
             <p>&copy; 2025 Jonathan Shamwana. All Rights Reserved.</p>
           </div>
-          <div className="social-icons mb-4 md:mb-0">
+          {/* <div className="social-icons mb-4 md:mb-0">
             <a href="https://linkedin.com/in/shamwana" target="_blank" rel="noopener noreferrer">
                 <SocialIcon network="linkedin" />
             </a>
@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="https://x.com/JonathanSh42139" target="_blank" rel="noopener noreferrer">
                 <SocialIcon network="x" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

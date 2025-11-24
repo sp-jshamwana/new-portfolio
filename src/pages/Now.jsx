@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import items from '../data/now';
 import { MapContainer, TileLayer } from 'react-leaflet';
 
@@ -31,7 +31,7 @@ const Now = () => {
 
   return (
     <div className='bg-site min-h-screen'>
-      <Navbar />
+      <Headr />
       <div className="container mx-auto py-12">
         <h1 className="text-4xl mb-8 text-center">Now</h1>
         <h2 className="text-lg mb-4 text-center">I got the idea for this page from <u><a href="https://sive.rs/now" target="_blank" rel="noopener noreferrer">Derek Sivers</a></u>. This is what I'm working on now:</h2>

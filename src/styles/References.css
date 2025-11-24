@@ -7,3 +7,21 @@
     color: #6B21A8;; 
     font-weight: bold;
 }
+
+.blog-card {
+    background: linear-gradient(to bottom, rgba(165, 186, 161, 0.4), rgba(248, 219, 188, 0.6));
+}
+
+.read-more {
+    color: #0A400C;
+}
+
+.read-more-button {
+    color: #0A400C !important;
+    transition: transform 0.2s ease;
+}
+
+.read-more-button:hover {
+    color: #0A400C !important;
+    transform: scale(1.05);
+}

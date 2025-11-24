@@ -47,7 +47,7 @@ export default function About() {
             Hello ello ello.
           </h1>
           <p className="text-xl sm:text-3xl whitespace-nowrap typewriter-text">
-            I'm <span className="text-purple-800">Jonathan</span> and I{typewriterText}
+            I'm <span className="jonathan-span">Jonathan</span> and I{typewriterText}
           </p>
         </div>
         <div 
