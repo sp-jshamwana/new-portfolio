@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <Navbar isHomePage={true}/>
             <About />
-            <References />
+            {/* <References /> */}
             <Projects />
             <InternshipExperience />
             <Blog />
