@@ -25,11 +25,6 @@ const peopleData = [
       onlineWriter: false
     },
     {
-      name: 'Sam Harris',
-      context: "The book 'Lying' was a seminal read for me. It forced me to confront how I lie to myself and others, and the level of honesty I aspire to have with my future kids.",
-      onlineWriter: false
-    },
-    {
       name: 'Shaan Puri',
       context: "I've been watching the MFM podcast for 4 years now. That's a lot of time with Sam and Shaan in my ears. A great entrepreneur and storyteller. Many aspects of his life that I'm trying to emulate.",
       onlineWriter: false
