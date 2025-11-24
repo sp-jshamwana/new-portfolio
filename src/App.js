@@ -16,12 +16,12 @@ export default function App() {
     <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/infodiet" element={<InfoDiet />} />
+          {/* <Route path="/infodiet" element={<InfoDiet />} /> */}
           <Route path="/now" element={<Now />} />
           <Route path="/people" element={<People />} />
           <Route path="/art" element={<Art />} />
           <Route path='/irunway-demo' element={<RunwayProject />} />
-          <Route path='/exploration' element={<Exploration />} />
+          {/* <Route path='/exploration' element={<Exploration />} /> */}
           <Route path='/morning-mushroom' element={<GoodMorning />} />
         </Routes>
         <Footer />
