@@ -7,6 +7,10 @@
     opacity: 1;
 }
 
+#about {
+    background-color: #FCF5EE;
+}
+
 @media (max-width: 768px) {
     .about-container {
       min-width: 350px;

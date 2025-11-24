@@ -21,7 +21,7 @@ const Art = () => {
     };
 
     return (
-        <div className="bg-gray-100 min-h-screen">
+        <div className="bg-site min-h-screen">
           <Navbar />
           <div className="container mx-auto py-12">
             <h1 className="text-4xl mb-8 text-center">Art</h1>

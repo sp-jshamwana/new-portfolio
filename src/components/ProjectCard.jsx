@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Projects.css";
 
-const ProjectCard = ({ project, onDemoClick, setActiveDemoVideo }) => {
+const ProjectCard = ({ project, onDemoClick, setActiveDemoVideo, isLatest }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -9,7 +9,7 @@ const ProjectCard = ({ project, onDemoClick, setActiveDemoVideo }) => {
   };
 
   return (
-    <div className={`projectCardContainer ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
+    <div className={`projectCardContainer ${isFlipped ? 'flipped' : ''} ${isLatest ? 'latestProject' : ''}`} onClick={handleFlip}>
       <div className="projectCard">
         <div className="projectCardFront" style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="cardOverlay">
@@ -53,4 +53,3 @@ const ProjectCard = ({ project, onDemoClick, setActiveDemoVideo }) => {
 };
 
 export default ProjectCard;
-

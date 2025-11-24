@@ -17,7 +17,7 @@ export const References = () => {
     };
 
     return (
-        <section id="references" className="pb-14 bg-gray-100">
+        <section id="references" className="pb-14 bg-site">
             <div className="max-w-4xl mx-auto py-8 text-center">
                 <Carousel
                     autoplay={false}
@@ -54,5 +54,4 @@ export const References = () => {
         </section>
     );
 };
-
 

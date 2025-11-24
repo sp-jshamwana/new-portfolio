@@ -48,6 +48,6 @@ transform: rotateY(180deg);
   
 @layer base {
     body {
-      background-color: #ffff;
+      background-color: #FCF5EE;
     }
 }

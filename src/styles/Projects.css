@@ -32,6 +32,30 @@
   background-size: cover;
   background-position: center;
   opacity: 0.7;
+  position: absolute;
+}
+
+.latestProject .projectCardFront::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.45) 45%, rgba(255, 255, 255, 0) 60%);
+  transform: translateX(-120%);
+  animation: shimmer 2.5s infinite;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.latestProject .projectCardFront::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255, 215, 0, 0.08), transparent 40%),
+              radial-gradient(circle at 80% 80%, rgba(255, 215, 0, 0.08), transparent 45%);
+  opacity: 0.9;
+  animation: goldenPulse 7s ease-in-out infinite;
+  pointer-events: none;
+  mix-blend-mode: screen;
 }
 
 .projectCardBack {
@@ -66,6 +90,27 @@
   background: rgba(118, 84, 139, 0.2);
   color: white;
   z-index: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-120%);
+  }
+  50% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes goldenPulse {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.75;
+  }
 }
 
 .tools,

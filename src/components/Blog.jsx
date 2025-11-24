@@ -27,7 +27,7 @@ const Blog = () => {
     }
 
     return (
-      <section id="blog" className="pt-12 pb-14 bg-gray-100">
+      <section id="blog" className="pt-12 pb-14 bg-site">
         <div className="border-t-2 border-gray-300 my-8"></div>
         <div className="container mx-auto px-10">
           <h2 className="text-2xl text-center mb-8 mt-20">Blog</h2>
