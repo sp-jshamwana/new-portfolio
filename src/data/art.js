@@ -7,6 +7,13 @@ const projects = [
       size: 'sm:col-span-3',
     },
     {
+      title: 'Talking Textiles',
+      image: '/images/art/tt-aib.png',
+      modalType: 'audio',
+      content: 'audio/TT-AIB.mp3',
+      size: 'sm:col-span-1',
+    },
+    {
       title: 'Father, Father',
       image: '/images/art/moonlight.jpg',
       modalType: 'video',
@@ -18,13 +25,6 @@ const projects = [
       image: '/images/art/poetry-monet.jpg',
       modalType: 'pdf',
       content: 'pdfs/poem.pdf',
-      size: 'sm:col-span-1',
-    },
-    {
-      title: 'Stream of consciousness',
-      image: '/images/art/brain-oil.jpg',
-      modalType: 'pdf',
-      content: 'pdfs/stream-of-consciousness.pdf',
       size: 'sm:col-span-1',
     },
     {
@@ -61,7 +61,14 @@ const projects = [
       modalType: 'pdf',
       content: 'pdfs/portraits.pdf',
       size: 'sm:col-span-2',
-    }
+    },
+    {
+      title: 'Stream of consciousness',
+      image: '/images/art/brain-oil.jpg',
+      modalType: 'pdf',
+      content: 'pdfs/stream-of-consciousness.pdf',
+      size: 'sm:col-span-1',
+    },
   ];
 
 export default projects;
