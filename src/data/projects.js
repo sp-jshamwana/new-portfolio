@@ -1,5 +1,14 @@
 const projects = [
     {
+        title: "Aura Points: Art Provenance",
+        date: 'Nov (2025)',
+        image: "/images/projects/bijinga-example.jpg",
+        category: "Full-stack Development",
+        tools: "Javascript, React, FramerMotion",
+        description: "This project is part of my broader mission of making (digital) art education more accessible, immersive, and multimedia. Here, you trace the provenance of 1930s Taiwanese+Japanese 'bijin-ga' paintings.",
+        link: "https://jonathans-aura-points.vercel.app/",
+    },
+    {
         title: "Pathweiz: Career Discovery",
         date: 'Dec (2024)',
         image: "/images/projects/dance-dance-dance.jpg",

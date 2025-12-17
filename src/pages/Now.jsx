@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import items from '../data/now';
 import { MapContainer, TileLayer } from 'react-leaflet';
 
@@ -21,17 +21,17 @@ const getTagColor = (tag) => {
 const Now = () => {
 
   const center = {
-    lat: -34.603722,
-    lng: -58.381592,
-  };
+    lat: 37.7694,
+    lng: -122.4862,
+  };  
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className='bg-gray-100 min-h-screen'>
-      <Navbar />
+    <div className='bg-site min-h-screen'>
+      <Header />
       <div className="container mx-auto py-12">
         <h1 className="text-4xl mb-8 text-center">Now</h1>
         <h2 className="text-lg mb-4 text-center">I got the idea for this page from <u><a href="https://sive.rs/now" target="_blank" rel="noopener noreferrer">Derek Sivers</a></u>. This is what I'm working on now:</h2>

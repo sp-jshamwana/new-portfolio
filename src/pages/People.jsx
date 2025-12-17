@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import { Popover } from 'antd';
@@ -19,8 +19,8 @@ const People = () => {
   }, []);
 
   return (
-    <div className='bg-gray-100 min-h-screen'>
-      <Navbar />
+    <div className='bg-site min-h-screen'>
+      <Header />
       <div className="container mx-auto py-12">
         <h1 className="text-4xl mb-8 text-center">People</h1>
         <div className="bg-yellow-100 p-6 rounded-md flex items-center mb-6 mx-4 md:mx-auto max-w-3xl">
@@ -77,4 +77,3 @@ const People = () => {
 };
 
 export default People;
-

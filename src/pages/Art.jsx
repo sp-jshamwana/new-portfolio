@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import ArtworkCard from "../components/ArtworkCard";
 import projects from "../data/art";
 import { Modal } from 'antd';
@@ -21,8 +21,8 @@ const Art = () => {
     };
 
     return (
-        <div className="bg-gray-100 min-h-screen">
-          <Navbar />
+        <div className="bg-site min-h-screen">
+          <Header />
           <div className="container mx-auto py-12">
             <h1 className="text-4xl mb-8 text-center">Art</h1>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
